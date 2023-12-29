@@ -562,6 +562,9 @@ h3 {
   padding: 24px;
   /* padding-top: 0; */
 }
+.wrapper-form{
+  margin-bottom: 8px;
+}
 .modal-btn {
   /* position: absolute;
   top: 24px;
@@ -602,6 +605,7 @@ h3 {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
 }
+
 .form-field {
   position: relative;
 }
@@ -632,7 +636,31 @@ h3 {
 .form-input:focus + .from-icon {
   fill: #4d5ae5;
 }
+.form-comment {
+  margin-bottom: 16px;
+}
+.form-message {
+  width: 100%;
+  resize: vertical;
+  max-height: 120px;
+  border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 
+  padding: 8px 16px;
+  outline: transparent;
+  background-color: transparent;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-message:focus {
+  border-color: #4d5ae5;
+}
+.form-message::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+  font-size: 12px;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.04em;
+}
 /* Footer form */
 
 .footer-subscribe {
@@ -681,7 +709,7 @@ h3 {
   gap: 16px;
 
   border-radius: 4px;
-  background-color:  #4d5ae5;
+  background-color: #4d5ae5;
   padding: 8px 24px;
 
   color: #fff;
@@ -691,4 +719,5 @@ h3 {
   letter-spacing: 0.04em;
 }
 .subscribe-form-icon {
+  fill: #ffffff;
 }

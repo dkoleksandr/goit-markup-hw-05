@@ -558,6 +558,7 @@ h3 {
 }
 
 .modal {
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -604,6 +605,7 @@ h3 {
 .modal-btn:focus {
   background-color: #404bbf;
   fill: #ffffff;
+  border: none; 
 }
 .modal-icon-btn {
   stroke: #2e2f42;
@@ -616,8 +618,8 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 48px;
-  padding-bottom: 16px;
+  
+  margin-bottom: 16px;
 }
 
 .form-label {
@@ -692,6 +694,9 @@ h3 {
 }
 .form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
+}
+.wrapper-checkbox{
+  /* margin-bottom: 24px;  */
 }
 /* Footer form */
 

@@ -759,7 +759,7 @@ h3 {
 }
 /* Custom checkbox */
 .form-agreement {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;

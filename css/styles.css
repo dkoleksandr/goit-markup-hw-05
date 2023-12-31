@@ -576,9 +576,9 @@ h3 {
   top: 24px;
   right: 24px;
 
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
 
   width: 24px;
   height: 24px;
@@ -729,9 +729,11 @@ h3 {
   color: currentColor;
 }
 .subscribe-form-btn {
+  min-width: 165px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
 
   border-radius: 4px;
   background-color: #4d5ae5;
@@ -744,6 +746,7 @@ h3 {
   letter-spacing: 0.04em;
 }
 .subscribe-form-icon {
+  margin-left: 16px;
   fill: #ffffff;
 }
 /* Custom checkbox */

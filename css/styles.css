@@ -784,8 +784,7 @@ h3 {
 
   width: 16px;
   height: 16px;
-
-  /* stroke-width: 1px; */
+  
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   fill: transparent;

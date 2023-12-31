@@ -528,10 +528,10 @@ h3 {
 }
 
 .backdrop {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* transform: translate(-50%, -50%) scale(1); */
 
   display: flex;
   align-items: center;
@@ -609,7 +609,7 @@ h3 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 24px;
+  padding-top: 48px;
   padding-bottom: 16px;
 }
 

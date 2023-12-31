@@ -517,10 +517,24 @@
               class="form-message"
               name="comment"
               id="comment"
-              cols="30"
-              rows="10"
+              rows="7"
               placeholder="Text input"
               ></textarea>
+          </div>
+          <div class="wrapper-checkbox">
+            <label class="form-agreement">
+              <input class="checkbox visually-hidden" type="checkbox" name="user_agreement" value="false" >
+              <span class="form-agreement-checkbox">
+                <svg class="form-agreement-icon" width="16" height="16">
+                  <use href="/images/icons.svg#icon-checkbox"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the <a class="link-policy" href="">Privacy Policy</a>
+            </label>
+            
+            <button class="order-button send" type="button">
+              <span class="button-text">Send</span>
+            </button>
           </div>
         </form>
       </div>

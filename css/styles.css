@@ -531,7 +531,6 @@ h3 {
   position: fixed;
   top: 0;
   left: 0;
-  /* transform: translate(-50%, -50%) scale(1); */
 
   display: flex;
   align-items: center;
@@ -553,8 +552,6 @@ h3 {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-
-  /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .modal {
@@ -574,8 +571,6 @@ h3 {
   /* padding-top: 0; */
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  /* transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .wrapper-form {
   margin-bottom: 8px;
@@ -781,8 +776,6 @@ h3 {
 .link-policy {
   color: #4d5ae5;
   text-decoration-line: underline;
-}
-.checkbox {
 }
 .form-agreement-checkbox {
   display: inline-flex;
